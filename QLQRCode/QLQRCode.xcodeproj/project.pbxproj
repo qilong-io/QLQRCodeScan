@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710F67BC20C24E73005DF774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F67BB20C24E73005DF774 /* AppDelegate.m */; };
+		710F67BF20C24E73005DF774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F67BE20C24E73005DF774 /* ViewController.m */; };
+		710F67C220C24E73005DF774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710F67C020C24E73005DF774 /* Main.storyboard */; };
+		710F67C420C24E73005DF774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710F67C320C24E73005DF774 /* Assets.xcassets */; };
+		710F67C720C24E73005DF774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710F67C520C24E73005DF774 /* LaunchScreen.storyboard */; };
+		710F67CA20C24E73005DF774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F67C920C24E73005DF774 /* main.m */; };
+		710F67D420C24E73005DF774 /* QLQRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F67D320C24E73005DF774 /* QLQRCodeTests.m */; };
+		710F67DF20C24E73005DF774 /* QLQRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F67DE20C24E73005DF774 /* QLQRCodeUITests.m */; };
+		710F680C20C25CD7005DF774 /* QRCodeReaderMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F67EF20C25CD7005DF774 /* QRCodeReaderMaskView.m */; };
+		710F680D20C25CD7005DF774 /* QRCodeReaderAanimationLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F67F020C25CD7005DF774 /* QRCodeReaderAanimationLineView.m */; };
+		710F680E20C25CD7005DF774 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F67F120C25CD7005DF774 /* QRCodeReaderView.m */; };
+		710F681F20C25CD7005DF774 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F680620C25CD7005DF774 /* QRCameraSwitchButton.m */; };
+		710F682020C25CD7005DF774 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F680820C25CD7005DF774 /* QRCodeReaderViewController.m */; };
+		710F682120C25CD7005DF774 /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F680B20C25CD7005DF774 /* QRCodeReader.m */; };
+		710F682320C2B942005DF774 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 710F682220C2B942005DF774 /* Resource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		710F67D020C24E73005DF774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710F67AF20C24E73005DF774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710F67B620C24E73005DF774;
+			remoteInfo = QLQRCode;
+		};
+		710F67DB20C24E73005DF774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710F67AF20C24E73005DF774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710F67B620C24E73005DF774;
+			remoteInfo = QLQRCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		710F67B720C24E73005DF774 /* QLQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		710F67BA20C24E73005DF774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		710F67BB20C24E73005DF774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		710F67BD20C24E73005DF774 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		710F67BE20C24E73005DF774 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		710F67C120C24E73005DF774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		710F67C320C24E73005DF774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		710F67C620C24E73005DF774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		710F67C820C24E73005DF774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710F67C920C24E73005DF774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		710F67CF20C24E73005DF774 /* QLQRCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLQRCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		710F67D320C24E73005DF774 /* QLQRCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLQRCodeTests.m; sourceTree = "<group>"; };
+		710F67D520C24E73005DF774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710F67DA20C24E73005DF774 /* QLQRCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLQRCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		710F67DE20C24E73005DF774 /* QLQRCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLQRCodeUITests.m; sourceTree = "<group>"; };
+		710F67E020C24E73005DF774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710F67EE20C25CD7005DF774 /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		710F67EF20C25CD7005DF774 /* QRCodeReaderMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderMaskView.m; sourceTree = "<group>"; };
+		710F67F020C25CD7005DF774 /* QRCodeReaderAanimationLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderAanimationLineView.m; sourceTree = "<group>"; };
+		710F67F120C25CD7005DF774 /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		710F67F220C25CD7005DF774 /* QRCodeReaderMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderMaskView.h; sourceTree = "<group>"; };
+		710F67F320C25CD7005DF774 /* QRCodeReaderAanimationLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderAanimationLineView.h; sourceTree = "<group>"; };
+		710F67F420C25CD7005DF774 /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderDelegate.h; sourceTree = "<group>"; };
+		710F680620C25CD7005DF774 /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCameraSwitchButton.m; sourceTree = "<group>"; };
+		710F680720C25CD7005DF774 /* QRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReader.h; sourceTree = "<group>"; };
+		710F680820C25CD7005DF774 /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
+		710F680920C25CD7005DF774 /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCameraSwitchButton.h; sourceTree = "<group>"; };
+		710F680A20C25CD7005DF774 /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		710F680B20C25CD7005DF774 /* QRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReader.m; sourceTree = "<group>"; };
+		710F682220C2B942005DF774 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		710F67B420C24E73005DF774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F67CC20C24E73005DF774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F67D720C24E73005DF774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710F67AE20C24E73005DF774 = {
+			isa = PBXGroup;
+			children = (
+				710F67B920C24E73005DF774 /* QLQRCode */,
+				710F67D220C24E73005DF774 /* QLQRCodeTests */,
+				710F67DD20C24E73005DF774 /* QLQRCodeUITests */,
+				710F67B820C24E73005DF774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		710F67B820C24E73005DF774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710F67B720C24E73005DF774 /* QLQRCode.app */,
+				710F67CF20C24E73005DF774 /* QLQRCodeTests.xctest */,
+				710F67DA20C24E73005DF774 /* QLQRCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710F67B920C24E73005DF774 /* QLQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				710F67EC20C25CD7005DF774 /* QLQRCode */,
+				710F67BA20C24E73005DF774 /* AppDelegate.h */,
+				710F67BB20C24E73005DF774 /* AppDelegate.m */,
+				710F67BD20C24E73005DF774 /* ViewController.h */,
+				710F67BE20C24E73005DF774 /* ViewController.m */,
+				710F67C020C24E73005DF774 /* Main.storyboard */,
+				710F67C320C24E73005DF774 /* Assets.xcassets */,
+				710F67C520C24E73005DF774 /* LaunchScreen.storyboard */,
+				710F67C820C24E73005DF774 /* Info.plist */,
+				710F67C920C24E73005DF774 /* main.m */,
+			);
+			path = QLQRCode;
+			sourceTree = "<group>";
+		};
+		710F67D220C24E73005DF774 /* QLQRCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				710F67D320C24E73005DF774 /* QLQRCodeTests.m */,
+				710F67D520C24E73005DF774 /* Info.plist */,
+			);
+			path = QLQRCodeTests;
+			sourceTree = "<group>";
+		};
+		710F67DD20C24E73005DF774 /* QLQRCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				710F67DE20C24E73005DF774 /* QLQRCodeUITests.m */,
+				710F67E020C24E73005DF774 /* Info.plist */,
+			);
+			path = QLQRCodeUITests;
+			sourceTree = "<group>";
+		};
+		710F67EC20C25CD7005DF774 /* QLQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				710F682220C2B942005DF774 /* Resource.bundle */,
+				710F67ED20C25CD7005DF774 /* QRCodeReaderView */,
+				710F680720C25CD7005DF774 /* QRCodeReader.h */,
+				710F680B20C25CD7005DF774 /* QRCodeReader.m */,
+				710F67F420C25CD7005DF774 /* QRCodeReaderDelegate.h */,
+				710F680920C25CD7005DF774 /* QRCameraSwitchButton.h */,
+				710F680620C25CD7005DF774 /* QRCameraSwitchButton.m */,
+				710F680A20C25CD7005DF774 /* QRCodeReaderViewController.h */,
+				710F680820C25CD7005DF774 /* QRCodeReaderViewController.m */,
+			);
+			path = QLQRCode;
+			sourceTree = "<group>";
+		};
+		710F67ED20C25CD7005DF774 /* QRCodeReaderView */ = {
+			isa = PBXGroup;
+			children = (
+				710F67EE20C25CD7005DF774 /* QRCodeReaderView.h */,
+				710F67EF20C25CD7005DF774 /* QRCodeReaderMaskView.m */,
+				710F67F020C25CD7005DF774 /* QRCodeReaderAanimationLineView.m */,
+				710F67F120C25CD7005DF774 /* QRCodeReaderView.m */,
+				710F67F220C25CD7005DF774 /* QRCodeReaderMaskView.h */,
+				710F67F320C25CD7005DF774 /* QRCodeReaderAanimationLineView.h */,
+			);
+			path = QRCodeReaderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		710F67B620C24E73005DF774 /* QLQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710F67E320C24E73005DF774 /* Build configuration list for PBXNativeTarget "QLQRCode" */;
+			buildPhases = (
+				710F67B320C24E73005DF774 /* Sources */,
+				710F67B420C24E73005DF774 /* Frameworks */,
+				710F67B520C24E73005DF774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLQRCode;
+			productName = QLQRCode;
+			productReference = 710F67B720C24E73005DF774 /* QLQRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		710F67CE20C24E73005DF774 /* QLQRCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710F67E620C24E73005DF774 /* Build configuration list for PBXNativeTarget "QLQRCodeTests" */;
+			buildPhases = (
+				710F67CB20C24E73005DF774 /* Sources */,
+				710F67CC20C24E73005DF774 /* Frameworks */,
+				710F67CD20C24E73005DF774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				710F67D120C24E73005DF774 /* PBXTargetDependency */,
+			);
+			name = QLQRCodeTests;
+			productName = QLQRCodeTests;
+			productReference = 710F67CF20C24E73005DF774 /* QLQRCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		710F67D920C24E73005DF774 /* QLQRCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710F67E920C24E73005DF774 /* Build configuration list for PBXNativeTarget "QLQRCodeUITests" */;
+			buildPhases = (
+				710F67D620C24E73005DF774 /* Sources */,
+				710F67D720C24E73005DF774 /* Frameworks */,
+				710F67D820C24E73005DF774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				710F67DC20C24E73005DF774 /* PBXTargetDependency */,
+			);
+			name = QLQRCodeUITests;
+			productName = QLQRCodeUITests;
+			productReference = 710F67DA20C24E73005DF774 /* QLQRCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710F67AF20C24E73005DF774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = carystaloptech;
+				TargetAttributes = {
+					710F67B620C24E73005DF774 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					710F67CE20C24E73005DF774 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 710F67B620C24E73005DF774;
+					};
+					710F67D920C24E73005DF774 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 710F67B620C24E73005DF774;
+					};
+				};
+			};
+			buildConfigurationList = 710F67B220C24E73005DF774 /* Build configuration list for PBXProject "QLQRCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 710F67AE20C24E73005DF774;
+			productRefGroup = 710F67B820C24E73005DF774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				710F67B620C24E73005DF774 /* QLQRCode */,
+				710F67CE20C24E73005DF774 /* QLQRCodeTests */,
+				710F67D920C24E73005DF774 /* QLQRCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710F67B520C24E73005DF774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710F67C720C24E73005DF774 /* LaunchScreen.storyboard in Resources */,
+				710F67C420C24E73005DF774 /* Assets.xcassets in Resources */,
+				710F67C220C24E73005DF774 /* Main.storyboard in Resources */,
+				710F682320C2B942005DF774 /* Resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F67CD20C24E73005DF774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F67D820C24E73005DF774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710F67B320C24E73005DF774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710F67BF20C24E73005DF774 /* ViewController.m in Sources */,
+				710F680C20C25CD7005DF774 /* QRCodeReaderMaskView.m in Sources */,
+				710F680D20C25CD7005DF774 /* QRCodeReaderAanimationLineView.m in Sources */,
+				710F680E20C25CD7005DF774 /* QRCodeReaderView.m in Sources */,
+				710F67CA20C24E73005DF774 /* main.m in Sources */,
+				710F682120C25CD7005DF774 /* QRCodeReader.m in Sources */,
+				710F681F20C25CD7005DF774 /* QRCameraSwitchButton.m in Sources */,
+				710F67BC20C24E73005DF774 /* AppDelegate.m in Sources */,
+				710F682020C25CD7005DF774 /* QRCodeReaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F67CB20C24E73005DF774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710F67D420C24E73005DF774 /* QLQRCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F67D620C24E73005DF774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710F67DF20C24E73005DF774 /* QLQRCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		710F67D120C24E73005DF774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 710F67B620C24E73005DF774 /* QLQRCode */;
+			targetProxy = 710F67D020C24E73005DF774 /* PBXContainerItemProxy */;
+		};
+		710F67DC20C24E73005DF774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 710F67B620C24E73005DF774 /* QLQRCode */;
+			targetProxy = 710F67DB20C24E73005DF774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		710F67C020C24E73005DF774 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710F67C120C24E73005DF774 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		710F67C520C24E73005DF774 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710F67C620C24E73005DF774 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		710F67E120C24E73005DF774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		710F67E220C24E73005DF774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		710F67E420C24E73005DF774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NW5DC92K7;
+				INFOPLIST_FILE = QLQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carystaloptech.QLQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		710F67E520C24E73005DF774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NW5DC92K7;
+				INFOPLIST_FILE = QLQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carystaloptech.QLQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		710F67E720C24E73005DF774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carystaloptech.QLQRCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLQRCode.app/QLQRCode";
+			};
+			name = Debug;
+		};
+		710F67E820C24E73005DF774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carystaloptech.QLQRCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLQRCode.app/QLQRCode";
+			};
+			name = Release;
+		};
+		710F67EA20C24E73005DF774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLQRCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carystaloptech.QLQRCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QLQRCode;
+			};
+			name = Debug;
+		};
+		710F67EB20C24E73005DF774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLQRCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carystaloptech.QLQRCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QLQRCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		710F67B220C24E73005DF774 /* Build configuration list for PBXProject "QLQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710F67E120C24E73005DF774 /* Debug */,
+				710F67E220C24E73005DF774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710F67E320C24E73005DF774 /* Build configuration list for PBXNativeTarget "QLQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710F67E420C24E73005DF774 /* Debug */,
+				710F67E520C24E73005DF774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710F67E620C24E73005DF774 /* Build configuration list for PBXNativeTarget "QLQRCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710F67E720C24E73005DF774 /* Debug */,
+				710F67E820C24E73005DF774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710F67E920C24E73005DF774 /* Build configuration list for PBXNativeTarget "QLQRCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710F67EA20C24E73005DF774 /* Debug */,
+				710F67EB20C24E73005DF774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 710F67AF20C24E73005DF774 /* Project object */;
+}
