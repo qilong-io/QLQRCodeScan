@@ -99,22 +99,22 @@ static const float ReaderViewLengthRatio = 0.72;
     [self addSubview:scanCropView];
     
     // Add cornet Image
-    UIImage *cornerImage = [UIImage imageNamed:@"QRCodeTopLeft"];
+    UIImage *cornerImage = [UIImage imageNamed:@"Resource.bundle/QRCodeTopLeft"];
     UIImageView *topLeftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(CGRectGetMaxX(maskLeftView.frame) - 1.0, CGRectGetMaxY(maskTopView.frame) - 1.0, cornerImage.size.width, cornerImage.size.height)];
     topLeftImageView.image = cornerImage;
     [self addSubview:topLeftImageView];
     
-    cornerImage = [UIImage imageNamed:@"QRCodeTopRight"];
+    cornerImage = [UIImage imageNamed:@"Resource.bundle/QRCodeTopRight"];
     UIImageView *topRightImage = [[UIImageView alloc] initWithFrame:CGRectMake(CGRectGetMinX(maskRightView.frame) - cornerImage.size.width + 1.0, CGRectGetMaxY(maskTopView.frame) - 1.0, cornerImage.size.width, cornerImage.size.height)];
     topRightImage.image = cornerImage;
     [self addSubview:topRightImage];
     
-    cornerImage = [UIImage imageNamed:@"QRCodeBottomLeft"];
+    cornerImage = [UIImage imageNamed:@"Resource.bundle/QRCodeBottomLeft"];
     UIImageView *bottomLeftImage = [[UIImageView alloc] initWithFrame:CGRectMake(CGRectGetMaxX(maskLeftView.frame) - 1.0, CGRectGetMinY(maskBottomView.frame) - cornerImage.size.height + 2.0, cornerImage.size.width, cornerImage.size.height)];
     bottomLeftImage.image = cornerImage;
     [self addSubview:bottomLeftImage];
     
-    cornerImage = [UIImage imageNamed:@"QRCodeBottomRight"];
+    cornerImage = [UIImage imageNamed:@"Resource.bundle/QRCodeBottomRight"];
     UIImageView *bottomRightImage = [[UIImageView alloc] initWithFrame:CGRectMake(CGRectGetMinX(maskRightView.frame) - cornerImage.size.width + 1.0, CGRectGetMinY(maskBottomView.frame) - cornerImage.size.height + 2.0, cornerImage.size.width, cornerImage.size.height)];
     bottomRightImage.image = cornerImage;
     [self addSubview:bottomRightImage];

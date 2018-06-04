@@ -26,7 +26,7 @@
 }
 
 - (void)setup {
-    self.image = [UIImage imageNamed:@"QRCodeLine"];
+    self.image = [UIImage imageNamed:@"Resource.bundle/QRCodeLine"];
 }
 
 - (void)startAnimation
