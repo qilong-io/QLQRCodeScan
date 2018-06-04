@@ -7,7 +7,7 @@
 //
 
 #import "UIImageView+QLAdd.h"
-#import "UIImageView+WebCache.h"
+//#import "UIImageView+WebCache.h"
 #import "UIImage+QLAdd.h"
 #import "QLMacros.h"
 
@@ -19,11 +19,12 @@
 {
     QLWeakSelf;
     UIImage *placeholder = [[UIImage imageNamed:defaultPlaceHolderImage] circleImage];
-    [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:placeholder completed:
-     ^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-         if (image == nil) return;
-         weakSelf.image = [image circleImage];
-     }];
+    QLog(@"倒入SDWebImage方可使用");
+//    [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:placeholder completed:
+//     ^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+//         if (image == nil) return;
+//         weakSelf.image = [image circleImage];
+//     }];
 }
 
 @end
