@@ -22,6 +22,25 @@
 		710F682020C25CD7005DF774 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F680820C25CD7005DF774 /* QRCodeReaderViewController.m */; };
 		710F682120C25CD7005DF774 /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F680B20C25CD7005DF774 /* QRCodeReader.m */; };
 		710F682320C2B942005DF774 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 710F682220C2B942005DF774 /* Resource.bundle */; };
+		71DD253220C525470014C0AE /* NSData+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD253120C525470014C0AE /* NSData+QLAdd.m */; };
+		71DD253520C5262F0014C0AE /* NSDictionary+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD253420C5262F0014C0AE /* NSDictionary+QLAdd.m */; };
+		71DD253820C526870014C0AE /* NSString+QLConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD253720C526870014C0AE /* NSString+QLConvert.m */; };
+		71DD253B20C527900014C0AE /* NSString+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD253A20C527900014C0AE /* NSString+QLAdd.m */; };
+		71DD253E20C5284C0014C0AE /* UIButton+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD253D20C5284C0014C0AE /* UIButton+QLAdd.m */; };
+		71DD254120C528E70014C0AE /* UIColor+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD254020C528E70014C0AE /* UIColor+QLAdd.m */; };
+		71DD254420C529350014C0AE /* UIDevice+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD254320C529350014C0AE /* UIDevice+QLAdd.m */; };
+		71DD254720C529BF0014C0AE /* UIImage+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD254620C529BF0014C0AE /* UIImage+QLAdd.m */; };
+		71DD254A20C52A6C0014C0AE /* UIImageView+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD254920C52A6C0014C0AE /* UIImageView+QLAdd.m */; };
+		71DD254D20C52D520014C0AE /* UINavigationBar+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD254C20C52D520014C0AE /* UINavigationBar+QLAdd.m */; };
+		71DD255020C52DE10014C0AE /* UITableViewCell+QLConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD254F20C52DE10014C0AE /* UITableViewCell+QLConfig.m */; };
+		71DD255320C52E150014C0AE /* UIView+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD255220C52E140014C0AE /* UIView+QLAdd.m */; };
+		71DD255620C52E610014C0AE /* UIView+QLEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD255520C52E610014C0AE /* UIView+QLEvent.m */; };
+		71DD255920C52EFF0014C0AE /* UIViewController+QLUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD255820C52EFF0014C0AE /* UIViewController+QLUI.m */; };
+		71DD255D20C5301B0014C0AE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD255B20C5301B0014C0AE /* MBProgressHUD.m */; };
+		71DD256020C530E10014C0AE /* NSDate+QLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD255F20C530E10014C0AE /* NSDate+QLAdd.m */; };
+		71DD256320C532DF0014C0AE /* UIAlertController+QLUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD256220C532DF0014C0AE /* UIAlertController+QLUI.m */; };
+		71DD256620C5338D0014C0AE /* UIStoryboard+QLUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD256520C5338D0014C0AE /* UIStoryboard+QLUI.m */; };
+		C2EFE997776285181D8B66EA /* libPods-QLQRCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C016A96FFAF9E77E2DB3EB39 /* libPods-QLQRCode.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DAC08D98E30EEAC747C1F09 /* Pods-QLQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLQRCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-QLQRCode/Pods-QLQRCode.release.xcconfig"; sourceTree = "<group>"; };
+		5164D1363C52EEC39A8D6243 /* Pods-QLQRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLQRCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QLQRCode/Pods-QLQRCode.debug.xcconfig"; sourceTree = "<group>"; };
 		710F67B720C24E73005DF774 /* QLQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		710F67BA20C24E73005DF774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		710F67BB20C24E73005DF774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +93,46 @@
 		710F680A20C25CD7005DF774 /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
 		710F680B20C25CD7005DF774 /* QRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReader.m; sourceTree = "<group>"; };
 		710F682220C2B942005DF774 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		71DD252C20C51DD40014C0AE /* QLTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLTool.h; sourceTree = "<group>"; };
+		71DD252D20C51E270014C0AE /* QLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLMacros.h; sourceTree = "<group>"; };
+		71DD252E20C51EC30014C0AE /* QLSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLSingleton.h; sourceTree = "<group>"; };
+		71DD253020C525470014C0AE /* NSData+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+QLAdd.h"; sourceTree = "<group>"; };
+		71DD253120C525470014C0AE /* NSData+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+QLAdd.m"; sourceTree = "<group>"; };
+		71DD253320C5262F0014C0AE /* NSDictionary+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QLAdd.h"; sourceTree = "<group>"; };
+		71DD253420C5262F0014C0AE /* NSDictionary+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QLAdd.m"; sourceTree = "<group>"; };
+		71DD253620C526870014C0AE /* NSString+QLConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+QLConvert.h"; sourceTree = "<group>"; };
+		71DD253720C526870014C0AE /* NSString+QLConvert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+QLConvert.m"; sourceTree = "<group>"; };
+		71DD253920C527900014C0AE /* NSString+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+QLAdd.h"; sourceTree = "<group>"; };
+		71DD253A20C527900014C0AE /* NSString+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+QLAdd.m"; sourceTree = "<group>"; };
+		71DD253C20C5284C0014C0AE /* UIButton+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+QLAdd.h"; sourceTree = "<group>"; };
+		71DD253D20C5284C0014C0AE /* UIButton+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QLAdd.m"; sourceTree = "<group>"; };
+		71DD253F20C528E70014C0AE /* UIColor+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+QLAdd.h"; sourceTree = "<group>"; };
+		71DD254020C528E70014C0AE /* UIColor+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QLAdd.m"; sourceTree = "<group>"; };
+		71DD254220C529350014C0AE /* UIDevice+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+QLAdd.h"; sourceTree = "<group>"; };
+		71DD254320C529350014C0AE /* UIDevice+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+QLAdd.m"; sourceTree = "<group>"; };
+		71DD254520C529BF0014C0AE /* UIImage+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+QLAdd.h"; sourceTree = "<group>"; };
+		71DD254620C529BF0014C0AE /* UIImage+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QLAdd.m"; sourceTree = "<group>"; };
+		71DD254820C52A6C0014C0AE /* UIImageView+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+QLAdd.h"; sourceTree = "<group>"; };
+		71DD254920C52A6C0014C0AE /* UIImageView+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+QLAdd.m"; sourceTree = "<group>"; };
+		71DD254B20C52D520014C0AE /* UINavigationBar+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+QLAdd.h"; sourceTree = "<group>"; };
+		71DD254C20C52D520014C0AE /* UINavigationBar+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+QLAdd.m"; sourceTree = "<group>"; };
+		71DD254E20C52DE10014C0AE /* UITableViewCell+QLConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+QLConfig.h"; sourceTree = "<group>"; };
+		71DD254F20C52DE10014C0AE /* UITableViewCell+QLConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+QLConfig.m"; sourceTree = "<group>"; };
+		71DD255120C52E140014C0AE /* UIView+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+QLAdd.h"; sourceTree = "<group>"; };
+		71DD255220C52E140014C0AE /* UIView+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+QLAdd.m"; sourceTree = "<group>"; };
+		71DD255420C52E610014C0AE /* UIView+QLEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+QLEvent.h"; sourceTree = "<group>"; };
+		71DD255520C52E610014C0AE /* UIView+QLEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+QLEvent.m"; sourceTree = "<group>"; };
+		71DD255720C52EFF0014C0AE /* UIViewController+QLUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QLUI.h"; sourceTree = "<group>"; };
+		71DD255820C52EFF0014C0AE /* UIViewController+QLUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+QLUI.m"; sourceTree = "<group>"; };
+		71DD255B20C5301B0014C0AE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		71DD255C20C5301B0014C0AE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		71DD255E20C530E10014C0AE /* NSDate+QLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+QLAdd.h"; sourceTree = "<group>"; };
+		71DD255F20C530E10014C0AE /* NSDate+QLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+QLAdd.m"; sourceTree = "<group>"; };
+		71DD256120C532DE0014C0AE /* UIAlertController+QLUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+QLUI.h"; sourceTree = "<group>"; };
+		71DD256220C532DF0014C0AE /* UIAlertController+QLUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+QLUI.m"; sourceTree = "<group>"; };
+		71DD256420C5338D0014C0AE /* UIStoryboard+QLUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+QLUI.h"; sourceTree = "<group>"; };
+		71DD256520C5338D0014C0AE /* UIStoryboard+QLUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+QLUI.m"; sourceTree = "<group>"; };
+		C016A96FFAF9E77E2DB3EB39 /* libPods-QLQRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QLQRCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2EFE997776285181D8B66EA /* libPods-QLQRCode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +161,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B5F498C0AD70C501589994D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5164D1363C52EEC39A8D6243 /* Pods-QLQRCode.debug.xcconfig */,
+				4DAC08D98E30EEAC747C1F09 /* Pods-QLQRCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		710F67AE20C24E73005DF774 = {
 			isa = PBXGroup;
 			children = (
+				71DD252820C51D650014C0AE /* QLTool */,
 				710F67B920C24E73005DF774 /* QLQRCode */,
 				710F67D220C24E73005DF774 /* QLQRCodeTests */,
 				710F67DD20C24E73005DF774 /* QLQRCodeUITests */,
 				710F67B820C24E73005DF774 /* Products */,
+				0B5F498C0AD70C501589994D /* Pods */,
+				884D966FF9A38A2068F4EAA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,6 +257,77 @@
 			path = QRCodeReaderView;
 			sourceTree = "<group>";
 		};
+		71DD252820C51D650014C0AE /* QLTool */ = {
+			isa = PBXGroup;
+			children = (
+				71DD252C20C51DD40014C0AE /* QLTool.h */,
+				71DD252D20C51E270014C0AE /* QLMacros.h */,
+				71DD252E20C51EC30014C0AE /* QLSingleton.h */,
+				71DD255A20C5301B0014C0AE /* Tool */,
+				71DD252F20C5250F0014C0AE /* Category */,
+			);
+			name = QLTool;
+			path = QLQRCode/QLTool;
+			sourceTree = "<group>";
+		};
+		71DD252F20C5250F0014C0AE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				71DD253020C525470014C0AE /* NSData+QLAdd.h */,
+				71DD253120C525470014C0AE /* NSData+QLAdd.m */,
+				71DD253320C5262F0014C0AE /* NSDictionary+QLAdd.h */,
+				71DD253420C5262F0014C0AE /* NSDictionary+QLAdd.m */,
+				71DD253620C526870014C0AE /* NSString+QLConvert.h */,
+				71DD253720C526870014C0AE /* NSString+QLConvert.m */,
+				71DD253920C527900014C0AE /* NSString+QLAdd.h */,
+				71DD253A20C527900014C0AE /* NSString+QLAdd.m */,
+				71DD253C20C5284C0014C0AE /* UIButton+QLAdd.h */,
+				71DD253D20C5284C0014C0AE /* UIButton+QLAdd.m */,
+				71DD253F20C528E70014C0AE /* UIColor+QLAdd.h */,
+				71DD254020C528E70014C0AE /* UIColor+QLAdd.m */,
+				71DD254220C529350014C0AE /* UIDevice+QLAdd.h */,
+				71DD254320C529350014C0AE /* UIDevice+QLAdd.m */,
+				71DD254520C529BF0014C0AE /* UIImage+QLAdd.h */,
+				71DD254620C529BF0014C0AE /* UIImage+QLAdd.m */,
+				71DD254820C52A6C0014C0AE /* UIImageView+QLAdd.h */,
+				71DD254920C52A6C0014C0AE /* UIImageView+QLAdd.m */,
+				71DD254B20C52D520014C0AE /* UINavigationBar+QLAdd.h */,
+				71DD254C20C52D520014C0AE /* UINavigationBar+QLAdd.m */,
+				71DD254E20C52DE10014C0AE /* UITableViewCell+QLConfig.h */,
+				71DD254F20C52DE10014C0AE /* UITableViewCell+QLConfig.m */,
+				71DD255120C52E140014C0AE /* UIView+QLAdd.h */,
+				71DD255220C52E140014C0AE /* UIView+QLAdd.m */,
+				71DD255420C52E610014C0AE /* UIView+QLEvent.h */,
+				71DD255520C52E610014C0AE /* UIView+QLEvent.m */,
+				71DD255720C52EFF0014C0AE /* UIViewController+QLUI.h */,
+				71DD255820C52EFF0014C0AE /* UIViewController+QLUI.m */,
+				71DD255E20C530E10014C0AE /* NSDate+QLAdd.h */,
+				71DD255F20C530E10014C0AE /* NSDate+QLAdd.m */,
+				71DD256120C532DE0014C0AE /* UIAlertController+QLUI.h */,
+				71DD256220C532DF0014C0AE /* UIAlertController+QLUI.m */,
+				71DD256420C5338D0014C0AE /* UIStoryboard+QLUI.h */,
+				71DD256520C5338D0014C0AE /* UIStoryboard+QLUI.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		71DD255A20C5301B0014C0AE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				71DD255B20C5301B0014C0AE /* MBProgressHUD.m */,
+				71DD255C20C5301B0014C0AE /* MBProgressHUD.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		884D966FF9A38A2068F4EAA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C016A96FFAF9E77E2DB3EB39 /* libPods-QLQRCode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +335,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 710F67E320C24E73005DF774 /* Build configuration list for PBXNativeTarget "QLQRCode" */;
 			buildPhases = (
+				0B6A6E2B8DBC3DFE88C2B4AF /* [CP] Check Pods Manifest.lock */,
 				710F67B320C24E73005DF774 /* Sources */,
 				710F67B420C24E73005DF774 /* Frameworks */,
 				710F67B520C24E73005DF774 /* Resources */,
@@ -245,6 +391,7 @@
 		710F67AF20C24E73005DF774 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QL;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = carystaloptech;
 				TargetAttributes = {
@@ -312,18 +459,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B6A6E2B8DBC3DFE88C2B4AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QLQRCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		710F67B320C24E73005DF774 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DD253E20C5284C0014C0AE /* UIButton+QLAdd.m in Sources */,
+				71DD256620C5338D0014C0AE /* UIStoryboard+QLUI.m in Sources */,
 				710F67BF20C24E73005DF774 /* ViewController.m in Sources */,
 				710F680C20C25CD7005DF774 /* QRCodeReaderMaskView.m in Sources */,
 				710F680D20C25CD7005DF774 /* QRCodeReaderAanimationLineView.m in Sources */,
 				710F680E20C25CD7005DF774 /* QRCodeReaderView.m in Sources */,
 				710F67CA20C24E73005DF774 /* main.m in Sources */,
+				71DD255620C52E610014C0AE /* UIView+QLEvent.m in Sources */,
+				71DD255D20C5301B0014C0AE /* MBProgressHUD.m in Sources */,
+				71DD253220C525470014C0AE /* NSData+QLAdd.m in Sources */,
+				71DD255320C52E150014C0AE /* UIView+QLAdd.m in Sources */,
+				71DD254A20C52A6C0014C0AE /* UIImageView+QLAdd.m in Sources */,
+				71DD255020C52DE10014C0AE /* UITableViewCell+QLConfig.m in Sources */,
 				710F682120C25CD7005DF774 /* QRCodeReader.m in Sources */,
+				71DD253B20C527900014C0AE /* NSString+QLAdd.m in Sources */,
+				71DD256020C530E10014C0AE /* NSDate+QLAdd.m in Sources */,
 				710F681F20C25CD7005DF774 /* QRCameraSwitchButton.m in Sources */,
+				71DD254720C529BF0014C0AE /* UIImage+QLAdd.m in Sources */,
+				71DD254420C529350014C0AE /* UIDevice+QLAdd.m in Sources */,
+				71DD255920C52EFF0014C0AE /* UIViewController+QLUI.m in Sources */,
+				71DD253820C526870014C0AE /* NSString+QLConvert.m in Sources */,
+				71DD253520C5262F0014C0AE /* NSDictionary+QLAdd.m in Sources */,
+				71DD254120C528E70014C0AE /* UIColor+QLAdd.m in Sources */,
+				71DD254D20C52D520014C0AE /* UINavigationBar+QLAdd.m in Sources */,
+				71DD256320C532DF0014C0AE /* UIAlertController+QLUI.m in Sources */,
 				710F67BC20C24E73005DF774 /* AppDelegate.m in Sources */,
 				710F682020C25CD7005DF774 /* QRCodeReaderViewController.m in Sources */,
 			);
@@ -486,6 +672,7 @@
 		};
 		710F67E420C24E73005DF774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5164D1363C52EEC39A8D6243 /* Pods-QLQRCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +688,7 @@
 		};
 		710F67E520C24E73005DF774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DAC08D98E30EEAC747C1F09 /* Pods-QLQRCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
