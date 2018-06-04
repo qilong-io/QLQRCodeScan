@@ -314,8 +314,8 @@
 		71DD255A20C5301B0014C0AE /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				71DD255B20C5301B0014C0AE /* MBProgressHUD.m */,
 				71DD255C20C5301B0014C0AE /* MBProgressHUD.h */,
+				71DD255B20C5301B0014C0AE /* MBProgressHUD.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
