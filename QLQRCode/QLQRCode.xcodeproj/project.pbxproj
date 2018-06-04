@@ -261,7 +261,6 @@
 			isa = PBXGroup;
 			children = (
 				71DD252C20C51DD40014C0AE /* QLTool.h */,
-				71DD252D20C51E270014C0AE /* QLMacros.h */,
 				71DD252E20C51EC30014C0AE /* QLSingleton.h */,
 				71DD255A20C5301B0014C0AE /* Tool */,
 				71DD252F20C5250F0014C0AE /* Category */,
@@ -273,6 +272,7 @@
 		71DD252F20C5250F0014C0AE /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				71DD252D20C51E270014C0AE /* QLMacros.h */,
 				71DD253020C525470014C0AE /* NSData+QLAdd.h */,
 				71DD253120C525470014C0AE /* NSData+QLAdd.m */,
 				71DD255E20C530E10014C0AE /* NSDate+QLAdd.h */,
