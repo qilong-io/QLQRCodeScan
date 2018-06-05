@@ -236,8 +236,6 @@
 				710F680720C25CD7005DF774 /* QRCodeReader.h */,
 				710F680B20C25CD7005DF774 /* QRCodeReader.m */,
 				710F67F420C25CD7005DF774 /* QRCodeReaderDelegate.h */,
-				710F680920C25CD7005DF774 /* QRCameraSwitchButton.h */,
-				710F680620C25CD7005DF774 /* QRCameraSwitchButton.m */,
 				710F680A20C25CD7005DF774 /* QRCodeReaderViewController.h */,
 				710F680820C25CD7005DF774 /* QRCodeReaderViewController.m */,
 			);
@@ -247,6 +245,8 @@
 		710F67ED20C25CD7005DF774 /* QRCodeReaderView */ = {
 			isa = PBXGroup;
 			children = (
+				710F680920C25CD7005DF774 /* QRCameraSwitchButton.h */,
+				710F680620C25CD7005DF774 /* QRCameraSwitchButton.m */,
 				710F67EE20C25CD7005DF774 /* QRCodeReaderView.h */,
 				710F67EF20C25CD7005DF774 /* QRCodeReaderMaskView.m */,
 				710F67F020C25CD7005DF774 /* QRCodeReaderAanimationLineView.m */,
