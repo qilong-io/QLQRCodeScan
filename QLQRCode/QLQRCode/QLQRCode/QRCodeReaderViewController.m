@@ -55,6 +55,11 @@
     return [self initWithCancelButtonTitle:nil];
 }
 
+-(instancetype)initWithCoder:(NSCoder *)aDecoder{
+    self = [super initWithCoder:aDecoder];
+    return [self initWithCancelButtonTitle:nil];
+}
+
 - (id)initWithCancelButtonTitle:(NSString *)cancelTitle
 {
     return [self initWithCancelButtonTitle:cancelTitle metadataObjectTypes:@[AVMetadataObjectTypeQRCode]];
