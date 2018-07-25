@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QLTool"
-  s.version      = "0.1.2"
+  s.version      = "0.1.5"
   s.summary      = "A short description of QLQRCodeScan."
   s.description  = <<-DESC
 	    个人工具类

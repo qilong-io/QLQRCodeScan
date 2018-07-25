@@ -109,7 +109,7 @@ static const CGFloat centerOffset = 30.0f;
 
 - (void)showHUDWithModelText:(NSString *)text offsetY:(CGFloat)offsetY {
     
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:kApplication.windows[0] animated:YES];
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:kApplication.keyWindow animated:YES];
     hud.mode = MBProgressHUDModeText;
     hud.label.text = text;
     hud.label.numberOfLines = 0;
@@ -130,7 +130,7 @@ static const CGFloat centerOffset = 30.0f;
 
 - (void)showHUDWithCustomView:(UIView *)customView text:(NSString *)text {
     
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:kApplication.windows[0] animated:YES];
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:kApplication.keyWindow animated:YES];
     hud.mode = MBProgressHUDModeCustomView;
     
     hud.label.textColor = [UIColor darkTextColor];
@@ -147,7 +147,7 @@ static const CGFloat centerOffset = 30.0f;
 - (void)showNOAutoHideHUDWithCustomView:(UIView *)customView text:(NSString *)text {
     
     if (!self.hud) {
-        self.hud = [MBProgressHUD showHUDAddedTo:kApplication.windows[0] animated:YES];
+        self.hud = [MBProgressHUD showHUDAddedTo:kApplication.keyWindow animated:YES];
         self.hud.mode = MBProgressHUDModeCustomView;
         self.hud.label.text = text;
         self.hud.customView = customView;
@@ -159,7 +159,7 @@ static const CGFloat centerOffset = 30.0f;
 - (void)showHUDLoading {
     
     if (!self.hud) {
-        MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:kApplication.windows[0] animated:YES];
+        MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:kApplication.keyWindow animated:YES];
         hud.mode = MBProgressHUDModeIndeterminate;
         self.hud = hud;
         hud.label.text = @"loading...";
@@ -170,7 +170,7 @@ static const CGFloat centerOffset = 30.0f;
 
 - (void)showHUDLoading:(NSString *)info {
     if (!self.hud) {
-        self.hud = [MBProgressHUD showHUDAddedTo:kApplication.windows[0] animated:YES];
+        self.hud = [MBProgressHUD showHUDAddedTo:kApplication.keyWindow animated:YES];
         self.hud.mode = MBProgressHUDModeIndeterminate;
         self.hud.label.text = info;
     }else {
