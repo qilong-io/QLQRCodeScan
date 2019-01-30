@@ -477,6 +477,9 @@
         case 1:
             return @"1 min";
             break;
+        case 3:
+            return @"3 mins";
+            break;
         case 5:
             return @"5 mins";
             break;
