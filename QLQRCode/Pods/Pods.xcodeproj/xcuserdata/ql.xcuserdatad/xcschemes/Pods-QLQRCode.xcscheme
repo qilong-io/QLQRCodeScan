@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C22A652B813B7DDF263AB9026D9E4A4D"
+               BlueprintIdentifier = "F65E4A626D4A93625DCFE56533584004"
+               BuildableName = "libPods-QLQRCode.a"
                BlueprintName = "Pods-QLQRCode"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-QLQRCode.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
